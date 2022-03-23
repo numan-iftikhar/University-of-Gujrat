@@ -1,17 +1,17 @@
 #include <iostream>
-#include <stdio.h>
-
 using namespace std;
 
 int main()
 {
-    int data[] = {
-        52, 86, 48, 78, 80, 82, 51, 63, 58, 80, 65, 84, 55, 58, 53, 53, 82, 71, 69, 53, 82, 72, 62, 68, 64, 51, 57, 52, 55, 57, 64, 49, 84, 85, 67, 67, 61, 84, 62, 52, 79, 63, 57, 64, 51, 53, 85, 86, 71, 50, 57, 62, 80, 48, 49, 54, 73, 77, 73, 66, 69, 59, 77, 55, 75, 55, 62, 73, 79, 51, 85, 79, 67, 65, 65, 60, 68, 68, 80, 79, 73, 63, 80, 69, 62, 85, 83, 70, 72, 71, 56, 60, 66, 57, 81, 55, 57, 54, 57, 65, 60, 84, 65, 55, 84, 87, 65, 52, 58, 64, 71, 58, 72, 76, 56, 52, 59, 60, 64, 45};
+    // const int size = 120;
+    int data[] = 
+    {
+        52, 86, 48, 78, 80, 82, 51, 63, 58, 80, 65, 84, 55, 58, 53, 53, 82, 71, 69, 53, 82, 72, 62, 68, 64, 51, 57, 52, 55, 57, 64, 49, 84, 85, 67, 67, 61, 84, 62, 52, 79, 63, 57, 64, 51, 53, 85, 86, 71, 50, 57, 62, 80, 48, 49, 54, 73, 77, 73, 66, 69, 59, 77, 55, 75, 55, 62, 73, 79, 51, 85, 79, 67, 65, 65, 60, 68, 68, 80, 79, 73, 63, 80, 69, 62, 85, 83, 70, 72, 71, 56, 60, 66, 57, 81, 55, 57, 54, 57, 65, 60, 84, 65, 55, 84, 87, 65, 52, 84, 65, 55, 84, 87, 65, 52
+    };
 
-    // int size = sizeof(data) / sizeof(int);
-    const int size = 120;
+    int size = sizeof(data) / sizeof(int);
     int min, max, ap, a, bp, b, bm, cp, c, d, f;
-    ap = a = bp = b = bm = cp = c = d = f = 0;
+    ap = a = bp = b = bm = cp = c = d = f = 0; // initializing all to zero
     cout << "120 Students marks data of subject Math206\n";
     for (int i = 0; i < size; i++)
         cout << data[i] << " ";
@@ -43,7 +43,7 @@ int main()
     cout << "\n\nA+  ";
     for (int i = 0; i < ap; i++)
         cout << "*";
-    cout << " " << ap;
+    cout << " " << ap; // A+  ***** 5
 
     cout << "\nA   ";
     for (int i = 0; i < a; i++)
@@ -87,14 +87,14 @@ int main()
 
     // storing grades frequency in array
     int grades[9] = {ap, a, bp, b, bm, cp, c, d, f};
-    min = max = grades[0];
+    min = max = grades[0]; // initializing min and max to first element
     for (int i = 0; i < 9; i++)
     {
         // calculating min and max grades frequency
         if (max < grades[i])
-            max = grades[i];
+            max = grades[i]; // update max
         if (min > grades[i])
-            min = grades[i];
+            min = grades[i]; // update min
     }
     cout << "\n\n";
 
