@@ -1,22 +1,24 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int x;
-    for(int i=1; i<=5; i++){
-    cout<<"Enter number: ";
-    cin>>x;
+    for (int i = 1; i <= 5; i++)
+    {
+        cout << "Enter number: ";
+        cin >> x;
         for (int i = 1; i <= x; i++)
         {
-            cout<<x;
+            cout << x;
         }
-        cout<<endl;
+        cout << endl;
         for (int i = 1; i <= x; i++)
         {
-            cout<<x;
+            cout << x;
         }
-        cout<<endl<<endl;
+        cout << endl << endl;
     }
-    
+
     return 0;
 }
