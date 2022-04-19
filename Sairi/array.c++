@@ -9,7 +9,6 @@ int main()
     // updating values
     arr[3] = 45; // whenever i say index, add 1 to index ie., index 1 --> 1+1=2nd position
     arr[1] = 100;
-
     cout << arr[3]<<endl;
     // cout << arr[0]<<endl;
     // cout << arr[1]<<endl;

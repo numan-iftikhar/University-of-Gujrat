@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int rows, columns, i, j;
+    
     cout << "Enter the number of rows\n";
     cin >> rows; // Takes input from user for rows
     cout << "Enter the number of columns\n";

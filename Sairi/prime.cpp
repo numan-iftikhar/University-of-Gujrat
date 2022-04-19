@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Prime checker
 int main() {
 
   int i, n;

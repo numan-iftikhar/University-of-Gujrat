@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Nested Loop
 int main(){
     int i=1, j=0;
 

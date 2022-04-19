@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// index multiply
 int main()
 {
     // Given an array of integers of 5 elements. compute the product of each element with its index and print it?

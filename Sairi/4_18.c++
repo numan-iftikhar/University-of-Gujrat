@@ -1,6 +1,7 @@
 // 4.18
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int i = 1; // counter

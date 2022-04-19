@@ -2,6 +2,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int counter = 1, number, largest=0, secondLargest = 0;

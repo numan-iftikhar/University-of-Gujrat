@@ -1,6 +1,7 @@
 // 4.30 (fibonacci sequence)
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int n, i = 1, x = 0, y = 1, a;

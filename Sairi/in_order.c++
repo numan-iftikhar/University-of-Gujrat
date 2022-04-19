@@ -5,7 +5,6 @@ int main(){
     int a,b,c;
     cout<<"Enter three integers: \n";
     cin>>a>>b>>c;
-
     // ascending order
     if(a < b && b < c)
         cout<<"Ascending order";

@@ -5,7 +5,6 @@ int main()
     int num;
 
     cout << "enter the six digits number: ";
-
     cin >> num;
 
     cout << num / 100000<<endl; // / means return rightmost digit

@@ -5,7 +5,6 @@ int main(){
     // Given an array of integers of 5 elements. Compute the sum and square of all the elements of the array in an integer variable 'sum' and print the square of each element?
 
     int arr[5] = {1,2,3,4,5};
-
     int sum = 0;
 
     // calculting sum 

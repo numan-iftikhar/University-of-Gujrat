@@ -12,7 +12,6 @@ int main()
         cin >> arr[i];
     }
 
-
     // printing each element of array 
     for (int i = 0; i < 5; i++)
     {

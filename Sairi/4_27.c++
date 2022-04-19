@@ -1,7 +1,7 @@
 // 4.27
 #include <iostream>
-
 using namespace std;
+
 int main()
 {
     int number, firstDigit, secondDigit, fourthDigit, fifthDigit;
